@@ -1,9 +1,10 @@
 # 🍔 FoodHub - Premium Food Discovery App
 
-**Live Demo:** [https://foodhubs00.netlify.app/](https://foodhubs0.netlify.app/) *(Update after deployment)* **Code Repository:** [https://github.com/shehabRabby/FoodHub-Nextjs](https://github.com/shehabRabby/FoodHub-Nextjs)  
+**Live Demo:** [https://foodhubs00.netlify.app/](https://foodhubs00.netlify.app/) *(Update after deployment)* **Code Repository:** [https://github.com/shehabRabby/FoodHub-Nextjs](https://github.com/shehabRabby/FoodHub-Nextjs)  
 **Clone Repository:** `git clone https://github.com/shehabRabby/FoodHub-Nextjs.git`
 
 ---
+
 
 ## 📖 Short Project Description
 FoodHub is a modern, responsive food discovery application built using **Next.js** and **Tailwind CSS**. It serves as a premium interface for users to explore various food categories, view real-time menu items via API, and learn about the brand. The application focuses on a high-end "app-like" experience with a signature **Green, Red, and White** theme.
