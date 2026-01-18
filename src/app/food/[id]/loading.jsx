@@ -4,7 +4,7 @@ const loading = () => {
   return (
     <div className="max-w-4xl mx-auto p-4 flex flex-col gap-4 md:flex-row md:gap-6 animate-pulse">
       {/* Image placeholder */}
-      <div className="bg-gray-200 w-full h-64 md:w-1/2 md:h-80 rounded-lg" />
+      <div className="bg-gray-200 w-full h-64 md:w-1/2 md:h-120 rounded-lg" />
 
       {/* Details placeholder */}
       <div className="flex-1 flex flex-col gap-3">
