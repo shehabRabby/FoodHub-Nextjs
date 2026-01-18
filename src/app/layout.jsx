@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         <header className="sticky top-0 z-50 bg-white shadow-sm w-full">
           <div className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 py-4">
             {/* Logo Area */}
-            <Link href="/home" className="flex-shrink-0">
+            <Link href="/" className="flex-shrink-0">
               <Image
                 src="/logo.png"
                 width={120}
@@ -43,12 +43,7 @@ export default function RootLayout({ children }) {
 
             {/* Navigation Links */}
             <nav className="flex items-center gap-4 sm:gap-6 text-sm md:text-base text-gray-700 font-medium">
-              <Link
-                href="/home"
-                className="hover:text-red-500 transition whitespace-nowrap"
-              >
-                Home
-              </Link>
+
               <Link
                 prefetch={false}
                 href="/food"

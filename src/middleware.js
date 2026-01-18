@@ -6,7 +6,7 @@ export function middleware(request) {
 
 
   if (isLoggedIn && pathname === '/login') {
-    return NextResponse.redirect(new URL('/home', request.url));
+    return NextResponse.redirect(new URL('/', request.url));
   }
 
 
@@ -16,5 +16,5 @@ export function middleware(request) {
 
 // Config defines which routes this middleware runs on
 export const config = {
-  matcher: ['/login', '/home'], 
+  matcher: ['/login', '/'], 
 };

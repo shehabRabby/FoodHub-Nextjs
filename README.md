@@ -1,6 +1,6 @@
 # 🍔 FoodHub - Premium Food Discovery App
 
-**Live Demo:** [https://foodhubs0.netlify.app/](https://foodhubs0.netlify.app/) *(Update after deployment)* **Code Repository:** [https://github.com/shehabRabby/FoodHub-Nextjs](https://github.com/shehabRabby/FoodHub-Nextjs)  
+**Live Demo:** [https://foodhubs00.netlify.app/](https://foodhubs0.netlify.app/) *(Update after deployment)* **Code Repository:** [https://github.com/shehabRabby/FoodHub-Nextjs](https://github.com/shehabRabby/FoodHub-Nextjs)  
 **Clone Repository:** `git clone https://github.com/shehabRabby/FoodHub-Nextjs.git`
 
 ---
@@ -27,7 +27,7 @@ Use these to test the login functionality:
 * **Password:** `foodhub`
 
 ## 🗺️ Route Summary
-* `/home` - Main landing page with branding and highlights.
+* `/` - Main landing page with branding and highlights.
 * `/food` - Full menu exploration grid.
 * `/food/[id]` - Detailed view of specific food items.
 * `/about` - Company mission, core values, and team.
