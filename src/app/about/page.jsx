@@ -3,8 +3,7 @@ import React from "react";
 const AboutPage = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-24">
-      
-      {/* 1. Hero Section: The Mission */}
+      {/* 1. Hero Section*/}
       <section className="flex flex-col md:flex-row items-center gap-12">
         <div className="flex-1 space-y-6">
 
