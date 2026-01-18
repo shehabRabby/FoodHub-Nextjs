@@ -23,17 +23,21 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50 flex flex-col min-h-screen`} suppressHydrationWarning={true}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50 flex flex-col min-h-screen`}
+        suppressHydrationWarning={true}
       >
         {/* Header: Responsive padding and flex wrapping */}
         <header className="sticky top-0 z-50 bg-white shadow-sm w-full">
           <div className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 py-4">
             {/* Logo Area */}
             <Link href="/home" className="flex-shrink-0">
-              <Image src="/logo.png"
-              width={120} height={40}
+              <Image
+                src="/logo.png"
+                width={120}
+                height={40}
                 alt="FoodHub Logo"
-                className="w-[100px] md:w-[120px] h-auto"/>
+                className="w-[100px] md:w-[120px] h-auto"
+              />
             </Link>
 
             {/* Navigation Links */}
@@ -45,7 +49,7 @@ export default function RootLayout({ children }) {
                 Home
               </Link>
               <Link
-              prefetch={false}
+                prefetch={false}
                 href="/food"
                 className="hover:text-red-500 transition whitespace-nowrap"
               >

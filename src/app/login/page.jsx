@@ -23,8 +23,6 @@ const page = () => {
                     <LoginForm />
                 </div>
 
-
-
             </div>
 
             <div className="fixed inset-0 opacity-[0.015] pointer-events-none -z-20 bg-[url('https://www.transparenttextures.com/patterns/food.png')]"></div>
