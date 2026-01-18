@@ -1,6 +1,6 @@
 # 🍔 FoodHub - Premium Food Discovery App
 
-**Live Demo:** [https://foodhub-nextjs-demo.vercel.app](https://foodhub-nextjs-demo.vercel.app) *(Update after deployment)* **Code Repository:** [https://github.com/shehabRabby/FoodHub-Nextjs](https://github.com/shehabRabby/FoodHub-Nextjs)  
+**Live Demo:** [https://foodhubs0.netlify.app/](https://foodhubs0.netlify.app/) *(Update after deployment)* **Code Repository:** [https://github.com/shehabRabby/FoodHub-Nextjs](https://github.com/shehabRabby/FoodHub-Nextjs)  
 **Clone Repository:** `git clone https://github.com/shehabRabby/FoodHub-Nextjs.git`
 
 ---
