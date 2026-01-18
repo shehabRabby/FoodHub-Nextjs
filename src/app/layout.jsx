@@ -3,6 +3,7 @@ import "./globals.css";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import { Toaster } from "react-hot-toast";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -70,6 +71,7 @@ export default function RootLayout({ children }) {
             </nav>
           </div>
         </header>
+        <Toaster position="top-center" reverseOrder={false} />
 
         {/* Main: Responsive horizontal padding and max-width for large screens */}
         <main className="flex-grow w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
