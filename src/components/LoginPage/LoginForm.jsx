@@ -19,7 +19,6 @@ const LoginForm = () => {
     const MOCK_PASS = "foodhub";
 
     if (email === MOCK_EMAIL && password === MOCK_PASS) {
-      // 2. Success Toast
       toast.success("Login Successful! Welcome to FoodHub 🍔", {
         duration: 3000,
         icon: '🔥',
@@ -31,7 +30,7 @@ const LoginForm = () => {
 
       // 4. Redirect after a short delay
       setTimeout(() => {
-        router.push("/home");
+        router.push("/food");
         router.refresh();
       }, 1000);
     } else {
